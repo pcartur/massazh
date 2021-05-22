@@ -1,0 +1,201 @@
+*{
+    margin:0;
+    padding:0;
+    color:rgb(0, 0, 0);
+font-family:'Roboto Condensed'
+;
+}
+
+.container{
+    max-width:1100px;
+    margin:0 auto;
+}
+
+header img{
+    width:100px;
+}
+
+.header-content{
+    display:flex;
+    justify-content:space-between;
+}
+
+.menu-list {
+ padding-top:20px;
+ padding-bottom:20px;
+}
+
+.menu-list a{
+ text-decoration:none;
+ color:black;
+}
+
+.menu-list a:not(:last-child){
+    margin-right:25px;
+}
+
+.aboutus{
+    padding:50px 0;
+    text-align:center;
+}
+
+.about-list{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+
+.about-item{
+    width:45%;
+    margin:10px 0;
+}
+
+.aboutus-content h1{
+    margin-bottom:35px;
+}
+
+.about-item h2{
+    color:white;
+}
+
+.about-item img{
+    width:100%;
+    border-radius:15px;
+}
+
+.menu-list a:hover{
+    color:red;
+}
+
+.tarifs-item{
+    width:22%;
+    text-align:center;
+}
+
+.tarifs-item img{
+    width:100%;
+}
+
+.tarifs{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+
+body{
+ background:linear-gradient(to bottom,#830b39,#3f3a33,#36173d)
+}
+
+.uslugi-content h2{
+text-align:center;
+margin-bottom:30px;
+}
+
+.tarifs-item a{
+text-decoration:none;
+color:rgb(138, 23, 23);
+}
+
+.tarifs-item p{
+    color:rgb(170, 60, 60);
+}
+
+.uslugi img {
+border-radius:30px;
+}
+
+.tarifs-item h3{
+    color:white;
+}
+
+.tarifs-item a:hover{
+    text-decoration:none;
+    color:rgb(21, 53, 196);
+}
+
+.spa-content{
+    margin-top:40px;
+    text-align:center;
+}
+
+.spa-content-item img{
+    width:100%;
+    border-radius:30px;
+    margin-top:40px;
+    margin-bottom:15px;
+}
+
+.zapis{
+    margin-top:50px;
+    margin-bottom:120px;
+    text-align:center;
+}
+
+.spa-content a{
+    text-decoration:none;
+    color:rgb(138, 23, 23);
+}
+
+.spa-content p{
+    color:rgb(170, 60, 60);
+}
+
+.spa-content a:hover{
+    text-decoration:none;
+    color:rgb(21, 53, 196);
+}
+
+.spa-content h3{
+    text-decoration:none;
+    color:white;
+}
+
+.zapis h3{
+color:rgb(161, 209, 29);
+}
+
+.spa-contents {
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+
+.spa-content-item h3{
+    font-weight:bold;
+    font-size:35px;
+}
+
+.spa-content-item p{
+    margin-bottom:10px;
+    margin-top:10px;
+    font-size:30px;
+}
+
+.spa-content-item a{
+    font-size:35px;
+    padding:5px 9px;
+    background-color: teal;
+    border-radius:20px;
+}
+
+.tarifs-item p{
+    font-size:20px;
+}
+
+.logo{
+    padding:15px 20px;
+    color:red;
+    font-size:20px;
+    text-decoration:none;
+}
+
+.logo:hover{
+    color:white;
+}
+
+@media (max-width:768px) {
+    .about-item,.tarifs-item{
+        width:90%;
+    
+    }
+}
